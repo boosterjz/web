@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #3A5B7B;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.upper_header {
+    height: 50px;
+}
+
+.lower_header {
+    justify-content: flex-start;
+    height: 210px;
+}
+
+.upper_header_wrapper {
+    background-color: #D0E7FD;
+    border-bottom: 1px solid #8698A9;
+}
+
+.lower_header_wrapper {
+    background-color: #E5F0FA;
+    border-bottom: 1px solid #8698A9;
+}
+
+
+.header_icon_phone {
+    margin-right: 20px;
+}
+
+.header_icon_geo {
+    flex: 2;
+    max-height: 40px;
+    margin-right: 20px;
+    max-width: 40px;
+}
+
+.hospital_logo {
+    max-width: 70px;
+    margin-right: 30px;
+}
+
+.contact_info {
+    flex: 4;
+}
+
+.auth {
+    flex: 1;
+    text-decoration: none;
+    color: #3A5B7B;
+    font-size: 18px;
+}
+
+.hospital_name {
+    color: #3A5B7B;
+    font-size: 22px;
+    flex-grow: 4;
+    font-weight: 500;
+}
+
+.site_navigation_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.site_navigation_item {
+    display: inline;
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+.site_navigation_item:last-child {
+    margin-right: 0;
+}
+
+.site_navigation {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.site_navigation_link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+
+
+.container_wrapper {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.site_menu {
+    font-weight: 700;
+}
+
+.site_menu_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.menu_navigation_item {
+    display: inline-block;
+    margin-right: auto;
+    background-color: #D1E8FD;
+    padding: 3px 27px 3px 27px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    max-height: inherit;
+}
+.menu_navigation_item:last-child {
+    margin-right: 0;
+}
+
+.menu_navigation_link {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.hospital_description {
+    margin-top: 60px;
+    display: flex;
+    font-size: 14.5px;
+}
+
+.doctors_image {
+    height: 350px;
+    width: 700px;
+    align-self: center;
+}
+
+.separator{
+    border-top: 1px solid #8698A9 ;
+    border-bottom: 1px solid #8698A9 ;
+    height: 50px;
+    position: absolute;
+    left: -70px;
+    right: 0;
+    margin-top: 50px;
+    background-color: #D1E8FD;
+}
+
+.hospital_services_text{
+  font-size: 18px;  
+}
+
+h2 {
+    margin-top: 150px;
+    border-bottom: 1px solid #8698A9;
+    font-weight: 400;
+}
+
+.main_services {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding-left: 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 20px;
+    margin: 15px;
+}
+
+.consultation_therap_profile {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 20px;
+    margin: 15px;
+}
+
+.consultation_surgical_specialist {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.clinical_and_diagnostic_exam {
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+.separator {
+    border-top: 1px solid #8698A9 ;
+    border-bottom: 1px solid #8698A9 ;
+    height: 50px;
+    position: absolute;
+    left: -70px;
+    right: 0;
+    margin-top: 50px;
+    background-color: #D1E8FD;
+}
+
+.operation_mode {  
+    margin-top: 150px;
+  } 
+
+h6 {
+    border-bottom: 1px solid #8698A9;
+    font-weight: 400;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.work_time_text {
+    font-size: 17px;
+    width: 600px;
+    height: 400px;   
+    margin-top: 0;
+    display: inline;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.timer_logo {
+    width: 316px;
+    height: 440px;
+    margin-left: 420px;
+    margin-right: 0;
+    justify-content: flex-end;
+}
+
+
+
+.paid_services {
+    margin-top: 150px;
+    border-bottom: 1px solid #8698A9;
+    font-weight: 400;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.paid_services_img {
+    height: 600px;
+    width: 1000px;
+    margin-top: 60px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.covid_19 {
+    border-bottom: 1px solid #8698A9;
+    margin-top: 150px;
+    font-weight: 400;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.covid_help {
+    display: flex;
+
+}
+
+.covid19_info {
+    height: 500px;
+    width: 800px;
+    margin-right: 20px;
+}
+
+.covid_doctor {
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.contact_info_page {
+    margin-top: 150px;
+}
+
+.h9 {
+    border-bottom: 1px solid #8698A9;
+    font-weight: 400;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.covid_info_pos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact_info_text1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 800px;
+    margin-right: 100px;
+    
+}
+
+.contact_info_text2 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 650px;
+    margin-right: 100px;
+
+}
+
+.contact_info_text3 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 650px;
+    justify-self: self-end;
+}
+
+.hospital_story {
+    margin-top: 150px;
+}
+
+.h10 {
+    border-bottom: 1px solid #8698A9;
+    font-weight: 400;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.hosp_story {
+    width: 1100px;
+    height: auto;
+    display: flex;
+    font-size: 14.5px;
+}
+
+.hosp_img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.hospital_photo_1 {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.hospital_photo_2 {
+    width: 350px;
+    height: 200px;
+    display: flex;
+}
