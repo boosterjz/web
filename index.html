@@ -33,8 +33,8 @@
         <div class="site_navigation">
           <ul class="site_navigation_list">
             <li class="site_navigation_item"><a class="site_navigation_link" href="index.html">Главная</a></li>
-            <li class="site_navigation_item"><a class="site_navigation_link" href="#">О больнице</a></li>
-            <li class="site_navigation_item"><a class="site_navigation_link" href="#">Контакты</a></li>
+            <li class="site_navigation_item"><a class="site_navigation_link" href="#hospital_inf">О больнице</a></li>
+            <li class="site_navigation_item"><a class="site_navigation_link" href="#contacts">Контакты</a></li>
           </ul>
         </div>
       </div>
@@ -42,13 +42,14 @@
   </header>
 
   <main class="container_wrapper">
+    <a href="#" title="Вернуться к началу" class="topbutton">Наверх</a>
     <nav class="site_menu">
       <ul class="site_menu_list">
-        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#">Список услуг</a></li>
-        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#">Режим работы</a></li>
-        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#">Платные услуги</a></li>
+        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#services">Список услуг</a></li>
+        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#operation_m">Режим работы</a></li>
+        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#paid_s">Платные услуги</a></li>
         <li class="menu_navigation_item"><a class="menu_navigation_link" href="appointment.html">Записаться на приём</a></li>
-        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#">Covid-19</a></li>
+        <li class="menu_navigation_item"><a class="menu_navigation_link" href="#cov19">Covid-19</a></li>
       </ul>
     </nav>
 
@@ -78,9 +79,7 @@
 
     <section>
       <div class="hospital_services_text">
-        <h2>
-          Услуги
-        </h2>
+        <article id="services"><h2>Услуги</h2></article>
 
         <ul class="main_services">
           <h3> Консультация специалиста терапевтического профиля
@@ -142,9 +141,11 @@
     </div>
 
     <section class="operation_mode">
-      <h6>
-        Режим работы
-      </h6>
+      <article id="operation_m"> 
+        <h6>
+          Режим работы
+        </h6>
+      </article>
       
       <div class="work_time_text">
         <p>
@@ -169,18 +170,23 @@
     <div class="separator"></div>
 
     <div class="paid_services">
-      <h7>
-        Платные услуги
-      </h7>
+      <article id="paid_s">
+        <h7>
+          Платные услуги
+        </h7>
+      </article>
     </div>
     <img src="/img/svg/paid_services.png" alt="Платные услуги" class="paid_services_img">
 
     <div class="separator"></div>
     
     <div class="covid_19">
-      <h8>
-        Covid-19
-      </h8>
+      <article id="cov19">
+        <h8>
+          Covid-19
+        </h8>
+      </article>
+     
     </div>
 
     <section class="covid_help">
@@ -191,9 +197,11 @@
     <div class="separator"></div>
 
     <div class="contact_info_page">
-      <p class="h9">
-        Контактная информация
-      </p>
+      <article id="contacts">
+        <p class="h9">
+          Контактная информация
+        </p>
+      </article>
 
       <section class="covid_info_pos">
         <div class="contact_info_text1">
@@ -258,7 +266,9 @@
     <div class="separator"></div>
 
     <div class="hospital_story">
-      <p class="h10">О больнице</p>
+      <article id="hospital_inf">
+        <p class="h10">О больнице</p>
+      </article>
 
       <div class="hosp_story">
         <div class="hosp_text">
