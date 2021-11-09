@@ -161,6 +161,14 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    font-size: 25px;
+    margin-top: 150px;
+    border-bottom: 1px solid #8698A9;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
 .hospital_description {
     margin-top: 60px;
     display: flex;
@@ -188,12 +196,6 @@ h1 {
   font-size: 18px;  
 }
 
-h2 {
-    margin-top: 150px;
-    border-bottom: 1px solid #8698A9;
-    font-weight: 400;
-}
-
 .main_services {
     list-style-type: none;
     display: flex;
@@ -215,23 +217,10 @@ h3 {
     margin-top: 40px;
 }
 
-h4 {
-    font-weight: 700;
-    font-size: 15px;
-    padding-right: 20px;
-    margin: 15px;
-}
-
 .consultation_surgical_specialist {
     font-size: 15px;
     font-weight: normal;
     margin-top: 40px;
-}
-
-h5 {
-    font-weight: 700;
-    font-size: 15px;
-    margin: 15px;
 }
 
 .clinical_and_diagnostic_exam {
@@ -252,18 +241,6 @@ h5 {
     background-color: #D1E8FD;
 }
 
-.operation_mode {  
-    margin-top: 150px;
-  } 
-
-h6 {
-    border-bottom: 1px solid #8698A9;
-    font-weight: 400;
-    align-items: center;
-    font-size: 25px;
-    margin-bottom: 60px;
-}
-
 .work_time_text {
     font-size: 17px;
     width: 600px;
@@ -282,32 +259,15 @@ h6 {
     justify-content: flex-end;
 }
 
-
-
-.paid_services {
-    margin-top: 150px;
-    border-bottom: 1px solid #8698A9;
-    font-weight: 400;
-    align-items: center;
-    font-size: 25px;
-    margin-bottom: 60px;
-}
-
 .paid_services_img {
     height: 600px;
     width: 1000px;
-    margin-top: 60px;
     margin-left: 50px;
     display: flex;
     justify-content: center;
 }
 
 .covid_19 {
-    border-bottom: 1px solid #8698A9;
-    margin-top: 150px;
-    font-weight: 400;
-    align-items: center;
-    font-size: 25px;
     margin-bottom: 60px;
 }
 
@@ -332,18 +292,11 @@ h6 {
     margin-top: 150px;
 }
 
-.h9 {
-    border-bottom: 1px solid #8698A9;
-    font-weight: 400;
-    align-items: center;
-    font-size: 25px;
-    margin-bottom: 60px;
-}
-
 .covid_info_pos {
     display: flex;
     flex-wrap: wrap;
 }
+
 .contact_info_text1 {
     display: flex;
     flex-direction: column;
@@ -372,14 +325,6 @@ h6 {
 
 .hospital_story {
     margin-top: 150px;
-}
-
-.h10 {
-    border-bottom: 1px solid #8698A9;
-    font-weight: 400;
-    align-items: center;
-    font-size: 25px;
-    margin-bottom: 60px;
 }
 
 .hosp_story {

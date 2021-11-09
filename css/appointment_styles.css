@@ -74,6 +74,7 @@ body {
 
 .topbutton {
   width:40px;
+  font-family: 'Montserrat', sans-serif;
   border:1px solid #8698A9;
   background:#D0E7FD;
   text-align:center;
@@ -119,11 +120,79 @@ body {
   font-size: 20px;
 }
 
-.appointment {
-  
+h1 {
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
-h1 {
-    border-bottom: 1px solid #8698A9;
-    font-weight: 400;
+main {
+  display: flex;
+  flex-flow: column;
+}
+
+.centered {
+  display: flex;
+  border-bottom: 1px solid #8698A9;
+  width: 70%;
+  margin: 60px auto 0;
+  align-items: baseline;
+}
+
+.doctor-logo {
+  margin: 0 0 10px 5px;
+  height: 50px;
+}
+
+.form {
+  background-color: #D0E7FD;
+  width: 70%;
+  margin: 50px auto 0;
+  border-radius: 50px;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  width: 70%;
+  padding: 15px 0 25px;
+}
+
+input, textarea {
+  display: block;
+  margin: 12px 0;
+  width: 100%;
+  height: 30px;
+  background-color: #E5F0FA;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+ resize: none;
+ height: 200px;
+}
+
+button {
+  background-color: #E5F0FA;
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3A5B7A;
+}
+
+.separator{
+  border-top: 1px solid #8698A9 ;
+  border-bottom: 1px solid #8698A9 ;
+  height: 50px;
+  position: absolute;
+  left: -70px;
+  right: 0;
+  margin-top: 50px;
+  background-color: #D1E8FD;
 }

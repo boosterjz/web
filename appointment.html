@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Запись на приём</title>
-  <link rel="stylesheet" href="css/styles.css"> 
+  <link rel="stylesheet" href="css/appointment_styles.css"> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -33,8 +33,6 @@
         <div class="site_navigation">
           <ul class="site_navigation_list">
             <li class="site_navigation_item"><a class="site_navigation_link" href="index.html">Главная</a></li>
-            <!-- <li class="site_navigation_item"><a class="site_navigation_link" href="#hospital_inf">О больнице</a></li> -->
-            <!-- <li class="site_navigation_item"><a class="site_navigation_link" href="#contacts">Контакты</a></li> -->
           </ul>
         </div>
       </div>
@@ -43,13 +41,27 @@
 
   <main class="container">
     <a href="#" title="Вернуться к началу" class="topbutton">Наверх</a>
-    <h1>
-      Записаться на приём
-    </h1>
-    <div class="appointment">
-      
+    <div class="centered">
+      <h1>
+        Записаться на приём
+      </h1>
+      <img src="img/svg/Doctor_logo.svg" alt="Красивый доктор" class="doctor-logo">
+    </div>
+    <div class="form">
+      <div class="form-wrapper">
+        <form action="">
+          <label for="name">Ваши фамилия, имя, отчество</label>
+          <input type="text" id="name">
+          <label for="contact">Ваш E-mail или номер телефона</label>
+          <input type="text" id="contact">
+          <label for="message">Ваше сообщение</label>
+          <textarea id="message"></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
     </div>
   </main>
+  <div class="separator"></div>
 
 </body>
 </html>
